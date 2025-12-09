@@ -1,40 +1,47 @@
 body {
-    margin: 0;
-    padding: 0;
+    font-family: Arial;
     text-align: center;
-    font-family: Arial, sans-serif;
-    background: #f1f1f1;
+    margin-top: 40px;
+    background: #222;
+    color: white;
 }
 
 h1 {
-    margin-top: 30px;
+    animation: fadeIn 2s ease;
 }
 
-#moodBox {
-    margin: 20px auto;
-    padding: 20px;
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px);}
+    to { opacity: 1; transform: translateY(0);}
 }
 
 #output {
-    margin-top: 40px;
-    min-height: 200px;
+    width: 100%;
+    height: 500px;
     position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    background: #111;
+    border-radius: 10px;
+    transition: background-color 1s ease;
 }
 
-.shape {
-    width: 50px;
-    height: 50px;
-    position: absolute;
+.bubble {
     border-radius: 50%;
-    animation: floatUp 6s linear infinite;
-    opacity: 0.8;
+    position: absolute;
+    bottom: -60px;
+    opacity: 0.85;
+    animation: floatUp linear infinite;
 }
 
 @keyframes floatUp {
-    from {
-        transform: translateY(50px);
+    0% {
+        transform: translateY(0);
+        opacity: 1;
     }
-    to {
-        transform: translateY(-200px);
+    100% {
+        transform: translateY(-700px);
+        opacity: 0;
     }
 }
+

@@ -1,0 +1,19 @@
+Project Overview:
+For my final mini project, I made a small interactive page called the Mood Art Generator. The idea is pretty simple. The user picks a mood, and the page uses that mood to change the colors, show a message, and generate a few floating shapes. I wanted something creative without being overly complicated, and this felt like a good way to use all the JavaScript parts we learned.
+
+Why I Chose This Theme:
+I picked this theme because I like the idea of using color and motion to show a feeling. It’s an easy concept to build on, and it gave me room to focus on the JavaScript instead of trying to design something huge.
+
+Interactive Features:
+- Mood dropdown for user input
+- Button click event to generate the mood
+- DOM changes for background color, messages, and shapes
+- Hover titles on the shapes
+- Click events on shapes that show a short message
+- Random placement of elements to keep it fresh each time
+
+Async Operation:
+I used async and await to load a local JSON file (moods.json). This file stores the color, message, and extra info for each mood. The page fetches the data every time the user picks a mood.
+
+GitHub Link:
+https://github.com/zmschorr/Final-Project-N220

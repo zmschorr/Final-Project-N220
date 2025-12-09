@@ -1,0 +1,22 @@
+{
+    "happy": {
+        "color": "#FFD93D",
+        "message": "You’re feeling bright today.",
+        "extra": "Happy days make everything feel lighter."
+    },
+    "calm": {
+        "color": "#A3D8F4",
+        "message": "Everything feels pretty peaceful right now.",
+        "extra": "Slow moments sometimes hit the best."
+    },
+    "motivated": {
+        "color": "#90EE90",
+        "message": "You’re in a good mindset to get things done.",
+        "extra": "Momentum is everything. Keep going."
+    },
+    "tired": {
+        "color": "#C5C5C5",
+        "message": "You’re running low on energy today.",
+        "extra": "Rest counts too. Don’t feel bad about it."
+    }
+}
